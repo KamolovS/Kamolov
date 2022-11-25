@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AAA.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>      
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<style>
+
+    body{
+            background-color:rgb(236, 236, 236);
+            opacity: 16;
+    }
+    </style>
+  <body>  
+  
+    <div class="container g-5">    
+      <header class="">
+          <nav class="row g-5">
+              <div class="col">
+             <img src="dastur2.jpg" alt="" class="nav-logo">
+               </div>
+             <div class="col-6">
+              <input type="search" style="height: 55px; font-size: 25px;" class="form-control border border-warning border-4 rounded " placeholder="Поиск по товарам" aria-label="search product">           
+             </div>    
+                    
+             <div class="col-1 ">
+               <a href="" data-bs-toggle="offcanvas"
+               data-bs-target="#ofcanvasRight" aria-controls="offcanvasRight" class="nav-link cl1" class="nav-link"><i class="bi bi-person"></i>
+              </a>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="ofcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">SIGN IN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+
+                  <div class="offcanvas-body">
+                      <p class="abc"></p>                   
+                      <form action="">
+                      <label for="email" style="font-weight:normal;width: 100%;"><span class="llabel">Username or email </span><span class="spann">  *</span>
+                          <input type="email" name="email" id="email" class="email" required>
+                      </label>
+                      <label for="password" style="font-weight:normal;width: 100%;"><span class="llabel">Password </span><span class="spann"> *</span>
+                          <input type="password" name="password" id="password" class="password" required>
+                      </label>
+                      <input type="submit" name="submit" id="submit" value="LOGIN" class="login">
+                      <a href="#" class="lost" style="margin-top:10%;" id="lost">Lost your password?</a>
+                      <p class="abc abcd"></p>
+                      <p class="h4">No account yet? <a href="Create an Account" class="formInput">Create an Account</a></p>
+                  </form>
+                  </div>
+                </div>
+             </div>
+  
+             <div class="col-1">
+              <a href="#"  data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="nav-link cl2"><i class="bi bi-bag"></i>
+              </a>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">SHOPPING CARD</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                      <p class="abc"></p>
+                      <i class="bi bi-cart-x"></i>
+                      <p>No production in the card</p>
+                  </div>
+                </div>
+              </div>
+          </nav>
+      </header>
+  </div>
+  
+    <!-- <p>navbar</p> -->
+    <div class="btn-group" > 
+
+      <button class="btn btn-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        <i class="bi bi-list-ul"></i>
+      </button>
+      
+      <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="staticBackdropLabel" style="margin-left: 8%;">Main menu</h5>
+          
+          <p type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></p>
+        </div>
+        <div class="offcanvas-body"></div>
+         <div>
+            <a  href="#" ><big style="margin-left:10%; color: rgb(0, 0, 0);">Битовая техника</big></a><hr>
+            <a  href="#"><big style="margin-left:10%; color: rgb(0, 0, 0);">Компютер</big></a><hr>
+            <a  href="#"><big style="margin-left:10%; color: rgb(0, 0, 0);">Телефон</big></a><hr>
+            <a  href="#"><big style="margin-left:10%; color: rgb(0, 0, 0);">Мебел</big></a><hr>
+            <br><br><br><br><br>
+            <a  href="tel"><big style="margin-left:10%; font-size: 16px;">+998(99)777-07-71</big></a>
+          </div>
+          
+          <div>
+            <img src="bayroq.png" alt="none....." class="rasm1">
+            <img src="bayroq1.jpeg" alt="none....." class="rasm1" style="margin-left: 10px;">
+            <img src="bayroq2.png" alt="none....." class="rasm1" style="margin-left: 10px;">
+            <img src="bayroq3.png" alt="none....." class="rasm1" style="margin-left: 10px;">
+          </div>
+      </div>
+    </div>
+
+
+   <div class="na1">
+    <nav class="navbar navbar-expand-lg  text-light" id="navbar-example2" >
+    <li class="nav-item dropdown" > 
+      <a class="nav-link dropdown"  data-bs-toggle="dropdown" aria-expanded="false" style="color: rgb(0, 0, 0);">
+       <button class="btnz" ><svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+      </svg> Католог товар</button></a>
+      <ul class="dropdown-menu x" >
+        <a  href="#" style="color: black;"> Batteries</a><hr>
+        <a  href="#" style="color:  black;">Brake disks & pads</a><hr>
+        <a  href="#" style="color:  black;">Car Car kids</a><hr>
+        <a  href="#" style="color:  black;">Engine parts</a><hr>
+        <a  href="#" style="color:  black; ">Loghting</a><hr>
+        <a  href="#" style="color:  black; ">Oil & Lubricants</a><hr>
+        <a  href="#" style="color:  black;">Service kits</a><hr>
+        <a  href="#" style="color:  black; ">Steering</a><hr>
+        <a  href="#" style="color:  black;">Suspension</a><hr>
+        <a  href="#" style="color:  black;">Tres & Wheels</a><hr>
+        <a  href="#" style="color:  black;">Suspension System</a> <hr>
+     </ul>
+    </li>
+      <div class="container-fluid ">
+        <div class="collapse navbar-collapse  text-light" >
+          <ul class="navbar-nav" style="margin-left: 30px;">
+            
+            <li class="nav-item1">
+             <a class="navbar-brand  text-warning link-warning" href="#" >Акции</a>
+            
+            <li class="nav-item1 ">
+              <a class="nav-link  text-light link-warning" href="#">Битовая техника</a>
+            
+            <li class="nav-item1">
+              <a class="nav-link text-light link-warning" href="#">Компютер</a>
+            
+            <li class="nav-item1">
+              <a class="nav-link text-light link-warning">Телефон</a>
+            
+            <li class="nav-item1">
+              <a class="nav-link text-light link-warning">Мебел</a>
+            <li class="tel">
+              <a href="tel:+000-000-00-00" style="color: white; margin-left: 280px;"  ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="white" class="bi bi-telephone" viewBox="0 0 16 16" >
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg>+998(99)777-07-71</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  </div>
+
+   <div class="aaa">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="rul.jpg" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="dastur1.jpg" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="dastur2.jpg" class="d-block " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="dastur12.jpg" class="d-block " alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="dastur10.jpg" class="d-block " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="dastur9.jpg" class="d-block " alt="...">
+  </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-left: 60px; margin-top:90px;"></span>
+        <span class="visually-hidden">Next</span> 
+      </button>
+  
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" style="margin-top: 90px; margin-left: 60px;"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  </div>
+  
+  <div class="categorya">
+    <div class="first-floord">
+        <a href="" class="boxax"><div class="box10">
+            <div class="text10"><p>NEW RIMS</p>
+              <h5 style="font-size: 35px; ">New Tires</h5>
+              <h5 style="font-size:15px;">Wearning the best</h5>
+            <button type="button" class="more1">SHOP NOW</button>
+            </div>
+            <img src="dastur10.jpg" alt="" class="ani-images1">
+        </div></a>
+    </div><br>
+    <div class="second-floors">
+        <a href="" class="boxax"><div class="box12">
+            <div class="text10"><p>NEW RIMS</p>
+              <h5 style="font-size: 35px; ">New Tires</h5>
+              <h5 style="font-size:15px;">Wearning the best</h5>
+            <button type="button" class="more1">SHOP NOW</button>
+            </div>
+            <img src="dastur13.jpg" alt="" class="ani-images1">
+        </div></a>
+    </div>
+  </div>
+  
+  <form class="form">
+        <div class="cub1"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="orange" class="bi bi-truck" viewBox="0 0 16 16" style="margin-top: 12%; margin-left: 15px;">
+          <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+        </svg><h5 class="text">Fast and free delivery</h5>
+        <h5 class="textzz">Free delivery for all orders over $150</h5></div>
+     
+  </div>
+      <div class="cub2"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="orange" class="bi bi-headset" viewBox="0 0 16 16" style="margin-top: 12%; margin-left: 15px;">
+        <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z"/>
+      </svg><h5 class="text">24/7 Customer Support</h5>
+      <h5 class="textzz">Frindly 24/7 customer support</h5></div>
+  </div>
+      <div class="cub3"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="orange" class="bi bi-shield-check" viewBox="0 0 16 16" style="margin-top: 12%; margin-left:15px;">
+        <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+        <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+      </svg><h5 class="text">Money back guarantee</h5>
+      <h5 class="textzz">We return money within 30 days</h5></div>
+    </div>
+  </form>
+<!-- OLIMJON --> 
+
+   <!-- <h3  margin-top: 15%; ">Featured Categories <span class="matn"><a href="###"><u>ALL CATEGORIES</u></a></span></h3> -->
+  
+ 
+   <h5 style="margin-left: 5%; font-size: 30px;">Featured Categories  <big> <a href="###" class="matn"><u>ALL CATEGORIES</u></a> </big></h5>
+
+<div class="category">
+    <div class="first-floor">
+        <div class="box1">
+        <div class="text1"><p>Tires</p>
+            <button type="button" class="more">More</button>
+            </div>
+            <img src="https://papik.pro/uploads/posts/2022-01/1641272699_26-papik-pro-p-vektornii-risunok-kolesa-26.jpg" alt="" class="ani-images">
+        </div>
+        <div class="box1">
+            <div class="text1"><p>Service Kits</p>
+            <button type="button" class="more">More</button>
+            </div>
+            <img src="https://baby-gym.ru/image/cache/catalog/sportbaby/sborka/1a172a521b0fb94d72cb6e7a3f8d101f-800x800.jpg" alt="" class="ani-images">
+        </div>  
+        <div class="box1">
+            <div class="text1"><p>Steering Wheel</p>
+            <button type="button" class="more">More</button>
+            </div>
+            <img src="https://i5.walmartimages.com/asr/78c2ce7a-36ff-43a0-a4a6-13d11c7091d3_1.aaf72c78b7633fa1721a5c7280ecb50b.jpeg" alt="" class="ani-images">
+        </div>
+    </div><br>
+
+    <div class="second-floor"> 
+        <div class="box2">
+            <div class="text1"><p>Breake Parts</p>
+            <button type="button" class="more">More</button>
+            </div>
+            <img src="https://www.kindpng.com/picc/m/273-2731613_icon-brake-hd-png-download.png" alt="" class="ani-images">
+        </div>
+        <div class="box2">
+            <div class="text1"><p>Batteries</p>
+            <button type="button" class="more">More</button>
+            </div>
+            <img src="https://www.clipartkey.com/mpngs/m/201-2010685_vector-battery-car-logo-car-battery-icon-png.png" alt="" class="ani-images">
+        </div>
+        <div class="box2">
+            <div class="text1"><p>Oils and Fluids</p>
+            <button type="button" class="more">More</button>
+            </div>
+            <img src="https://e7.pngegg.com/pngimages/627/181/png-clipart-three-red-metal-oil-drums-petroleum-industry-barrel-of-oil-equivalent-drum-free-barrel-miscellaneous-barrel.png" alt="" class="ani-images">
+        </div>
+    </div>
+</div>
+
+<div class="first-sale">
+    <div class="f-sale"><div class="animated"><img src="https://media.currys.biz/i/currysprod/M10211612_white?$l-large$&fmt=auto" alt="" width="100px" height="200px" class="s-wash" ><br>
+        <p align="center" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi.</p>
+        <div class="y-a"></div>
+    </div><br></div>
+
+    <div class="f-sale"><div class="animated"><img src="https://media.currys.biz/i/currysprod/M10211612_white?$l-large$&fmt=auto" alt="" width="100px" height="200px" class="s-wash" ><br>
+        <p align="center" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi.</p>
+        <div class="y-a"></div>
+    </div><br></div>
+    <div class="f-sale"><div class="animated"><img src="https://media.currys.biz/i/currysprod/M10211612_white?$l-large$&fmt=auto" alt="" width="100px" height="200px" class="s-wash" ><br>
+        <p align="center" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi.</p>
+        <div class="y-a"></div>
+    </div><br></div>
+    <div class="f-sale"><div class="animated"><img src="https://media.currys.biz/i/currysprod/M10211612_white?$l-large$&fmt=auto" alt="" width="100px" height="200px" class="s-wash"><br>
+        <p align="center" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi.</p>
+        <div class="y-a"></div>
+    </div><br></div>
+    <div class="f-sale"><div class="animated"><img src="https://media.currys.biz/i/currysprod/M10211612_white?$l-large$&fmt=auto" alt="" width="100px" height="200px" class="s-wash"><br>
+        <p align="center" style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi.</p>
+        <div class="y-a"></div>
+    </div><br></div>
+</div>
+
+<div class="second-sale">
+    <div class="sale"><img src="https://www.electrolux.com.ph/globalassets/appliances/washing-machines/ewf8024p5wb/ewf8024p5wb-fr-cl-1500x1500-compressed.png" alt="" height="200px" style="margin-left: 10%;" class="wash"><br>
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars" id="star" onclick="star1()">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars" id="star1" onclick="star2()">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars" id="st" onclick="star3()">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars" id="s" onclick="star4()">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars" id="star2" onclick="star5()">
+        <h5>Apt: 360813 <span style="color: green; font-size:18px; margin-left:22%;">В наличии</span></h5>
+        <p align="center" style="margin-top: 10px;"  class="m1">Стиральная машина Indesit BTW A5851</p><br>
+        <p  class="price"><strong style="color: blue; margin-left: 28%;">100$</strong><button type="button" class="purchase"><strong>В КОРЗИНУ</strong></button></p>
+    </div>
+
+    <div class="sale"><img src="https://www.electrolux.com.ph/globalassets/appliances/washing-machines/ewf8024p5wb/ewf8024p5wb-fr-cl-1500x1500-compressed.png" alt="" height="200px" style="margin-left: 10%;" class="wash"><br>
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <h5>Apt: 360813 <span style="color: green; font-size:18px; margin-left:22%;">В наличии</span></h5>
+        <p align="center" style="margin-top: 10px;"  class="m1">Стиральная машина Indesit BTW A5851</p><br>
+        <p  class="price"><strong style="color: blue; margin-left: 28%;">100$</strong><button type="button" class="purchase"><strong>В КОРЗИНУ</strong></button></p></div>
+    <div class="sale"><img src="https://www.electrolux.com.ph/globalassets/appliances/washing-machines/ewf8024p5wb/ewf8024p5wb-fr-cl-1500x1500-compressed.png" alt="" height="200px" style="margin-left: 10%;" class="wash"><br>
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <h5>Apt: 360813 <span style="color: green; font-size:18px; margin-left:22%;">В наличии</span></h5>
+        <p align="center" style="margin-top: 10px;"  class="m1">Стиральная машина Indesit BTW A5851</p><br>
+        <p  class="price"><strong style="color: blue; margin-left: 28%;">100$</strong><button type="button" class="purchase"><strong>В КОРЗИНУ</strong></button></p></div>
+    <div class="sale"><img src="https://www.electrolux.com.ph/globalassets/appliances/washing-machines/ewf8024p5wb/ewf8024p5wb-fr-cl-1500x1500-compressed.png" alt="" height="200px" style="margin-left: 10%;" class="wash"><br>
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <h5>Apt: 360813 <span style="color: green; font-size:18px; margin-left:22%;">В наличии</span></h5>
+        <p align="center" style="margin-top: 10px;"  class="m1">Стиральная машина Indesit BTW A5851</p><br>
+        <p  class="price"><strong style="color: blue; margin-left: 28%;">100$</strong><button type="button" class="purchase"><strong>В КОРЗИНУ</strong></button></p></div>
+    <div class="sale"><img src="https://www.electrolux.com.ph/globalassets/appliances/washing-machines/ewf8024p5wb/ewf8024p5wb-fr-cl-1500x1500-compressed.png" alt="" height="200px" style="margin-left: 10%;" class="wash"><br>
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <img src="yyyy.jpg" alt="" width="15px" height="15px" style="display: inline;" class="stars">
+        <h5>Apt: 360813 <span style="color: green; font-size:18px; margin-left:22%;">В наличии</span></h5>
+        <p align="center" style="margin-top: 10px;" class="m1">Стиральная машина Indesit BTW A5851</p><br>
+        <p  class="price"><strong style="color: blue; margin-left: 28%;">100$</strong><button type="button" class="purchase"><strong>В КОРЗИНУ</strong></button></p></div>
+</div>
+<form class="search-system">
+    <div class="f1"><h1 style="color: yellow;">Lorem ipsum <span style="color: white;">dolor sit amet</span></h1><p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, doloremque.</p></div>
+
+    <div class="f2">
+        <label for="email" class="label1"><input type="email" name="email" id="input1" placeholder="Your email address" required><button class="sub">SUBSCRIBE</button></label>
+    </div>
+
+    </form><br>
+
+<footer id="footer">
+    <div class="links">
+        <div class="info">
+            <img src="dastur11.jpg" alt="" class="example"><br>
+            <p class="number" align="center"><a href="tel:+998905106675" style="text-decoration: none;color:rgb(110, 110, 110);">+998(90) 510 66 75</a></p><a href="http://" target="_blank"></a>
+            <p class="mail" align="center"><a href="mailto:tohirovolimjon7@gmail.com" target="blank" style="text-decoration: none;color:rgb(110, 110, 110);">Contact Us</a></p>
+        </div>
+    <ul class="first">
+        <br><br>
+        <li id="e"><big><strong>Information</strong></big>
+        <li id="d"><a href="#" class="a1">About Us</a>
+        <li id="d"><a href="#" class="a1">Customer Service</a>
+        <li id="d"><a href="#" class="a1">Privacy Policy</a>
+        <li id="d"><a href="#" class="a1">Search Terms</a>
+        <li id="d"><a href="#" class="a1">Contact Us</a>
+        <li id="d"><a href="#" class="a1">Order & Returns</a>
+        <li id="d"><a href="#" class="a1">Our Sitemap</a>
+    </ul>
+    <ul class="first">
+        <br><br>
+        <li id="e"><big><strong>Get To Know Us</strong></big>
+        <li id="d"><a href="#" class="a1">Our Company</a>
+        <li id="d"><a href="#" class="a1">Store Directory</a>
+        <li id="d"><a href="#" class="a1">Digital Museum</a>
+        <li id="d"><a href="#" class="a1">Our Suppliers</a>
+        <li id="d"><a href="#" class="a1">Sell on Walmart.com</a>
+        <li id="d"><a href="#" class="a1">Advertise With Us</a>
+        <li id="d"><a href="#" class="a1">Careers</a>
+    </ul>
+    <ul class="first">
+        <br><br>
+        <li id="e"><big><strong>Help</strong></big>
+        <li id="d"><a href="#" class="a1">Customer Service</a>
+        <li id="d"><a href="#" class="a1">My Account</a>
+        <li id="d"><a href="#" class="a1">Find a Store</a>
+        <li id="d"><a href="#" class="a1">Legal & Privacy</a>
+        <li id="d"><a href="#" class="a1">Contact</a>
+        <li id="d"><a href="#" class="a1">Gift Card</a>
+    </ul>
+    <ul class="first">
+        <br><br>
+        <li id="e"><big><strong>Opening Time</strong></big>
+        <li id="d"><a href="#" class="a1">Mon – Fri: 8AM – 9PM </a>
+        <li id="d"><a href="#" class="a1">Sat: 9 AM – 8 PM</a>
+        <li id="d"><a href="#" class="a1">Sun: Closed</a>
+    </ul>
+    </div>
+    <p style="color: rgb(131, 131, 131);font-family: monospace;display: block" align="center">Copyright 2022<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16"><path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z"/></svg> |Takhirov| Uzbekistan</p>
+    <p style="color: rgb(131, 131, 131);font-family: monospace;display: block" align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda explicabo officiis, numquam eos quam deleniti debitis cumque error incidunt adipisci necessitatibus sit aspernatur eius laboriosam reiciendis deserunt quaerat? Veniam, ab.
+
+Est praesentium numquam at ipsum dolorem odit maiores rerum quas dolores tempora! Vel assumenda reiciendis minus debitis molestiae rem, corporis optio rerum doloribus, dolores saepe perspiciatis! Autem eum quod molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aut fuga rem voluptatibus, id quibusdam et voluptas doloremque praesentium minima commodi nesciunt, qui fugit unde voluptatem animi dolores repellat est!
+    Dignissimos, maiores unde? Quos cum sit magnam iure quam dolores dolor deserunt cumque obcaecati, voluptas illo doloremque officiis? Doloribus accusamus debitis optio quidem ducimus aliquam reiciendis expedita unde veritatis.</p>
+</footer>
+<script>
+    function star1(){
+        document.getElementById('star').src = '/star-red.png';
+        document.getElementById('star1').src = '/star.png';
+        document.getElementById('st').src = '/star.png';
+        document.getElementById('s').src = '/star.png';
+        document.getElementById('star2').src = '/star.png';
+    }
+    function star2(){
+        document.getElementById('star').src = '/star-red.png';
+        document.getElementById('star1').src = '/star-red.png';
+        document.getElementById('st').src = '/star.png';
+        document.getElementById('s').src = '/star.png';
+        document.getElementById('star2').src = '/star.png';
+    }
+    function star3(){
+        document.getElementById('star').src = '/star-red.png';
+        document.getElementById('star1').src = '/star-red.png';
+        document.getElementById('st').src = '/star-red.png';
+        document.getElementById('s').src = '/star.png';
+        document.getElementById('star2').src = '/star.png';
+    }
+    function star4(){
+        document.getElementById('star').src = '/star-red.png';
+        document.getElementById('star1').src = '/star-red.png';
+        document.getElementById('st').src = '/star-red.png';
+        document.getElementById('s').src = '/star-red.png';
+        document.getElementById('star2').src = '/star.png';
+    }
+    function star5(){
+        document.getElementById('star').src = '/star-red.png';
+        document.getElementById('star1').src = '/star-red.png';
+        document.getElementById('st').src = '/star-red.png';
+        document.getElementById('s').src = '/star-red.png';
+        document.getElementById('star2').src = '/star-red.png';
+    }
+</script>
+</body>
+</html>
